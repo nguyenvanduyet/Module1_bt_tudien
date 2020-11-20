@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tu dien</title>
+</head>
+<body>
+<script>
+    let english = ['hello','car','room'];
+    let vn =['xinchao','oto','phong'];
+    let word = prompt('');
+    function trans(){
+        let index = -1;
+        for (let i = 0 ; i< english.length;i++){
+            if (english[i]==word){
+                index=i
+            }
+        }
+        if (index==-1){
+            alert('khong tim thay')
+        }else {
+            alert(vn[index])
+        }
+    }
+    trans()
+
+</script>
+</body>
+</html>
